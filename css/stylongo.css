@@ -1,0 +1,144 @@
+
+
+/* Estilos de la barra de navegación (nav) */
+
+
+
+/* Estilos para el menú desplegable */
+
+
+.nav li:hover ul {
+    display: block;
+}
+
+.nav ul li {
+    width: 100%;
+    margin: 0;
+}
+
+.nav ul li a {
+    width: 100%;
+    padding: 12px;
+    margin: 0;
+    background: white;
+    color: #444;
+}
+
+.nav ul li a:hover {
+    background: rgb(194, 194, 194);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1.logo-text a {
+    text-decoration: none;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color:#978ba6;
+    font-family: 'Oswald', serif;
+}
+
+header {
+    background-color: #5f6951;
+    height: 90px;
+}
+
+header * {
+    color: white;
+}
+
+
+header .logo {
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+
+header .logo-text {
+    margin: 9px;
+    font-family: 'Oswald', serif;
+    font-size: 7svi;
+
+}
+
+header .logo-text span {
+    color: rgb(0, 0, 0);
+}
+
+
+header ul {
+    float: right;
+    height: inherit;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+header ul li {
+    float: left;
+    position: relative;
+    margin: 0;
+}
+
+header ul li ul {
+    position: absolute;
+    top: 66px;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: none;
+}
+
+
+header ul li ul li {
+    width: 100%;
+    margin: 0;
+}
+
+header ul li:hover ul {
+    display: block;
+}
+
+
+header ul li a:hover {
+    background: #404933;
+    transition: 0.5s;
+    box-shadow: 10px 5px 5px black;
+}
+
+/* #6e7f53 */
+
+header ul li ul li a {
+    width: 100%;
+    padding: 12px;
+    margin: 0;
+    background: white;
+    color: #444;
+    background: white;
+    box-shadow: 10px 5px 5px #1e2813;
+}
+
+
+header ul li ul li a:hover {
+    background: rgb(194, 194, 194);
+    display: block;
+}
+
+header ul li a {
+    display: block;
+    padding: 23px;
+    font-size: 1.1em;
+    text-decoration: none;
+    height: inherit;
+    margin: 0;
+}
+
+header .menu-toggle {
+    display: none;
+}

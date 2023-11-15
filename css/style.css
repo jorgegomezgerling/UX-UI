@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+h1.logo-text a {
+    text-decoration: none;
+}
+
+h1.titulo{
+    color:black;
+    margin-left: 2.5em;
+    margin-top: 2.5em;
+}
+
+h2.subtitulo{
+    color:black;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+    margin-left: 25em;
+}
+
+h1.titulo span.experiencias{
+    color:#c1201f
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color:ghostwhite;
+    font-family: 'Oswald', serif;
+    position: relative;
+    padding-bottom: 8em;
+    min-height: 100vh;
+}
+
+header {
+    background-color: white;
+    height: 90px;
+}
+
+header * {
+    color: black;
+}
+
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.btn{
+    padding: .5rem 1rem;
+    background: #c1201f;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .65rem ;
+}
+
+.btn:hover{
+    color:white;
+    background: #b60f0f;
+}
+
+header .logo {
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+
+header .logo-text {
+    margin: 9px;
+    font-family: 'Oswald', serif;
+    font-size: 7svi;
+}
+
+header .logo-text span {
+    color: #c1201f
+}
+
+
+header ul {
+    float: right;
+    height: inherit;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+header ul li {
+    float: left;
+    position: relative;
+    margin: 0;
+}
+
+header ul li ul {
+    position: absolute;
+    top: 66px;
+    right: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: none;
+}
+
+
+header ul li ul li {
+    width: 100%;
+    margin: 0;
+}
+
+header ul li:hover ul {
+    display: block;
+}
+
+
+header ul li a:hover {
+    background: #f5f5f5;
+    transition: 0.5s;
+    box-shadow: 10px 5px 5px #3c3c3c;
+}
+
+/* #6e7f53 */
+
+header ul li ul li a {
+    width: 100%;
+    padding: 12px;
+    margin: 0;
+    background: white;
+    box-shadow: 10px 5px 5px #c2c2c2;
+}
+
+
+header ul li ul li a:hover {
+    background: rgb(194, 194, 194);
+    display: block;
+}
+
+header ul li a {
+    display: block;
+    padding: 23px;
+    font-size: 1.1em;
+    text-decoration: none;
+    height: inherit;
+    margin: 0;
+}
+
+header .menu-toggle {
+    display: none;
+}
+
+.content {
+    width: 90%;
+    margin: 40px auto 30px;
+
+}
+
+.content .main-content{
+    width: 70%;
+    float: left;
+}
+
+.content .sidebar{
+    width: 30%;
+    float: left;
+    border: 1px dashed blue;  
+    height: 300px;
+}
+
+.content .main-content .recent-post-title{
+    margin: 20px;
+}
+
+.content .main-content .post{
+    width: 95%;
+    height: 270px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: white;
+    position: relative;
+    margin: 20px auto;
+}
+
+.content .main-content .post .read-more{
+    position: absolute;
+    bottom: 10px;
+    right: 10px
+}
+
+
+.content .main-content .post .post-image{
+    width: 35%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+    position: relative;
+}
+
+.content .main-content .post .post-preview{
+    padding: 10px;
+    width: 60%;
+    float: right;
+}
+
+.content .sidebar .section{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.content .sidebar .section .search{
+    margin-top: 80px;
+}
+
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.grid-container {
+    padding: 30px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-item img{
+    max-width: 100%; 
+    height: auto;   
+    border-radius: 8px; 
+    max-height: 150px;
+}
+
+
+.footer-content {
+    padding: 2em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: white;  /* Agrega este estilo para el color de fondo */
+}
+
+.social-logos {
+    margin-top: 10px;
+}
+
+.social-logos img {
+    width: 30px; /* Ajusta el tamaño de los logos según sea necesario */
+    margin-right: 10px; /* Espacio entre los logos */
+}
